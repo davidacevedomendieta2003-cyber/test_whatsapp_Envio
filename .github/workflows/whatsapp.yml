@@ -23,6 +23,6 @@ jobs:
 
       - name: Ejecutar script
         env:
-          sid: ${{ secrets.sid }}
-          token: ${{ secrets.token }}
+          SID: ${{ secrets.sid }}
+          TOKEN: ${{ secrets.token }}
         run: python crip_python.py
