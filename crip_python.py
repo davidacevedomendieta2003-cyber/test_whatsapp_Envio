@@ -4,8 +4,8 @@ from twilio.rest import Client
 from datetime import datetime
 
 load_dotenv()
-account_sid = os.getenv("sid")
-auth_token  = os.getenv("token")
+account_sid = os.getenv("SID")
+auth_token  = os.getenv("TOKEN")
 
 frases = {
     1:  "Hoy es un buen día para ser feliz.",
@@ -46,7 +46,7 @@ dia = datetime.now().day
 
 mensaje = frases.get(dia, "Hoy es un buen día para ser feliz.")
 
-client = Client(account_sid, auth_token)
+client = Client(account_SID, auth_TOKEN)
 client.messages.create(
     from_= "whatsapp:+14155238886",
     to=    "whatsapp:+50583776225",
