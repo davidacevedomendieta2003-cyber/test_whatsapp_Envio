@@ -36,11 +36,10 @@ frases = {
     26: "El mejor momento para empezar siempre es hoy.",
     27: "Eres suficiente, exactamente como eres.",
     28: "Hoy, un paso. Mañana, otro. Así se llega lejos.",
-    29: "Las cosas buenas toman tiempo, y tú vales ese tiempo.",
+    29: "Hoy es un buen día para ser feliz.",
     30: "Hoy es tuyo, hazlo significativo.",
-    31: "Hoy es un buen día para ser feliz.",  # por si el mes tiene 31 días
+    31: "Las cosas buenas toman tiempo, y tú vales ese tiempo..",  # por si el mes tiene 31 días
 }
-
 
 dia = datetime.now().day
 
